@@ -2,7 +2,7 @@ import React from "react";
 
 function Supplier({ supplier }) {
   return (
-    <tr className={supplier.adress?.country == "Japan" ? "japan" : null}>
+    <tr className={supplier.address?.country == "Japan" ? "japan" : null}>
       <th scope="row">{supplier.id}</th>
       <td>{supplier.companyName}</td>
       <td>{supplier.contactName}</td>

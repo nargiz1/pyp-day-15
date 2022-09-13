@@ -12,7 +12,8 @@ function App() {
       .then((data) => setSuppliers(data));
   }, []);
 
-  console.log(suppliers);
+  console.log(suppliers)
+  console.log(suppliers[0]?.address?.country);
 
   return (
     <div className="container">
